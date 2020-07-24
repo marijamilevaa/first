@@ -28,19 +28,29 @@
       <a href="/">Go to first page</a>
     </header>
     <main>
+      <h3>Personal info</h3>
+      <h5>Profile</h5>
       <form id="first-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="Firstname" />
+        <input type="submit" value="submit" /> <br />
         <label for="surname">Surname:</label>
         <input type="text" id="surname" name="Lastname" />
+        <input type="submit" value="submit" /> <br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="Birthday" />
+        <input type="submit" value="submit" /> <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" />
+        <input type="submit" value="submit" /> <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="Password" />
+        <input type="submit" value="submit" /> <br />
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="Number" />
+        <input type="submit" value="submit" /> <br />
 
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label for="vehicle1">Viktor</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label for="vehicle2">Marija</label><br />
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-        <label for="vehicle3">Mileva</label><br />
-
+        <h4>Gender:</h4>
         <input type="radio" id="male" name="gender" value="male" />
         <label for="male">Male</label><br />
         <input type="radio" id="female" name="gender" value="female" />
@@ -48,17 +58,42 @@
         <input type="radio" id="other" name="gender" value="other" />
         <label for="other">Other</label>
 
+        <h4>Answer please</h4>
+        <h5>Your favorite food</h5>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Food" />
+        <label for="vehicle1">Pizza</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Food" />
+        <label for="vehicle2">Pasta</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Food" />
+        <label for="vehicle3">Healthy food</label><br />
+        <input type="checkbox" id="venicle3" name="vehicle3" value="Food" />
+        <label for="vehicle3">Other</label><br />
+
+        <h5>Your favorite pet</h5>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Pet" />
+        <label for="vehicle1">Dog</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Pet" />
+        <label for="vehicle2">Cat</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Pet" />
+        <label for="vehicle3">Fish</label><br />
+        <input type="checkbox" id="venicle3" name="vehicle3" value="Pet" />
+        <label for="vehicle3">Other</label><br />
+
+        <h5>Your favorite city</h5>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="City" />
+        <label for="vehicle1">Skopje</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="City" />
+        <label for="vehicle2">Paris</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="City" />
+        <label for="vehicle3">Berlin</label><br />
+        <input type="checkbox" id="venicle3" name="vehicle3" value="City" />
+        <label for="vehicle3">Other</label><br />
+
         <input
           type="hidden"
           name="hidden_field"
           value="Value of hidden field"
         />
-
-        <input type="submit" value="submit" />
-        <label>Email:</label>
-        <input type="text" />
-        <label>Number:</label>
-        <input type="text" />
       </form>
       <pre id="preview"></pre>
     </main>
