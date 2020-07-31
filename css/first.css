@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  text-align: end;
+  color: brown;
+  font-style: italic;
+}
+
+.first {
+  color: yellow;
+}
+
+.second {
+  color: pink;
+}
+
+#firstID {
+  color: blueviolet;
+}
+
+#secondID {
+  color: red;
+}
